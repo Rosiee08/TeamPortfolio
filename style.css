@@ -116,7 +116,7 @@ body {
     justify-content: center;
 }
 
-.anna-fe-bg {
+.anna-fe-bg, .rodelyn-bg, .louize-bg {
     background-color: var(--anna-secondary);
     color: var(--anna-text);
 }
@@ -194,22 +194,22 @@ body {
     transition: transform 0.3s ease;
 }
 
-.anna-fe-bg .btn {
+.anna-fe-bg .btn, .rodelyn-bg .btn, .louize-bg .btn {
     background-color: var(--anna-primary);
     color: var(--anna-text);
 }
 
-.anna-fe-bg .btn:hover {
+.anna-fe-bg .btn:hover, .rodelyn-bg .btn:hover, .louize-bg .btn:hover {
     transform: translateY(-3px);
     background-color: #7a5e52;
 }
 
-.rosevida-bg .btn {
+.rosevida-bg .btn, .rapael-bg .btn {
     background-color: var(--rosevida-secondary);
     color: var(--rosevida-text);
 }
 
-.rosevida-bg .btn:hover {
+.rosevida-bg .btn:hover, .rapael-bg .btn:hover {
     transform: translateY(-3px);
     background-color: #0056b3;
 }
